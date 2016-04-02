@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.coursera</groupId>
         <artifactId>metrics-datadog-parent</artifactId>
-        <version>1.1.3-um-2-SNAPSHOT</version>
+        <version>1.1.4-um-1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -28,7 +28,7 @@
             <artifactId>jackson-databind</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.indeed</groupId>
+            <groupId>com.datadoghq</groupId>
             <artifactId>java-dogstatsd-client</artifactId>
         </dependency>
         <dependency>
